@@ -21,7 +21,7 @@ import { TutorialPage } from '../pages/tutorial/tutorial';
 
 import { ConferenceData } from '../providers/conference-data';
 import { UserData } from '../providers/user-data';
-import {Ng2CompleterModule} from "ng2-completer/src/index";
+import {Ng2CompleterModule} from "ng2-completer";
 import {MyComponent} from "../pages/completer/completer";
 
 
