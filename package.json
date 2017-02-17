@@ -7,13 +7,8 @@
     "url": "https://github.com/driftyco/ionic-conference-app.git"
   },
   "scripts": {
-    "build": "ionic-app-scripts build",
-    "watch": "ionic-app-scripts watch",
-    "serve:before": "build",
-    "emulate:before": "build",
-    "deploy:before": "build",
-    "build:before": "build",
-    "run:before": "build"
+    "ionic:build": "ionic-app-scripts build",
+    "ionic:serve": "ionic-app-scripts serve"
   },
   "dependencies": {
     "@angular/common": "2.2.1",
@@ -30,12 +25,16 @@
     "ionic-native": "2.2.6",
     "ionicons": "3.0.0",
     "moment": "2.15.1",
+    "ng2-completer": "^1.1.0",
     "rxjs": "5.0.0-beta.12",
-    "zone.js": "0.6.21"
+    "sw-toolbox": "3.4.0",
+    "zone.js": "0.6.26"
   },
   "devDependencies": {
-    "@ionic/app-scripts": "0.0.46",
-    "typescript": "^2.0.3"
+    "@ionic/app-scripts": "latest",
+    "typescript": "2.0.9",
+    "webpack-bundle-analyzer": "^1.5.3",
+    "xml2js": "^0.4.17"
   },
   "cordovaPlugins": [
     "cordova-plugin-whitelist",
@@ -52,8 +51,5 @@
   "cordovaPlatforms": [
     "ios",
     "android"
-  ],
-  "config": {
-    "ionic_bundler": "rollup"
-  }
+  ]
 }

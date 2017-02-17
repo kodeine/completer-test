@@ -9,4 +9,4 @@ Test application for ng2-completer AOT
 * In the project folder run `npm i {ng2-completer-path}/dist`
 * Install the ionic CLI (`npm install -g ionic`)
 * Run `ionic serve` in a terminal from the project root.
-* Run `ionic run build android` to compile AOT (ngc).
+* Run `ionic build android --prod --release` to compile AOT (ngc).
