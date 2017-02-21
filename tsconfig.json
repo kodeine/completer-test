@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
-    "declaration": true,
+    "declaration": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "lib": [
@@ -10,17 +10,17 @@
     ],
     "module": "es2015",
     "moduleResolution": "node",
+    "sourceMap": true,
     "target": "es5"
   },
+  "include": [
+    "src/**/*.ts"
+  ],
   "exclude": [
     "node_modules"
   ],
   "compileOnSave": false,
   "atom": {
     "rewriteTsconfig": false
-  },
-  "ambientDependencies": {
-    "moment": "github:DefinitelyTyped/DefinitelyTyped/moment/moment.d.ts#56295f5058cac7ae458540423c50ac2dcf9fc711",
-    "moment-node": "github:DefinitelyTyped/DefinitelyTyped/moment/moment-node.d.ts#56295f5058cac7ae458540423c50ac2dcf9fc711"
   }
 }
